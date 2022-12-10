@@ -5,7 +5,7 @@
 VAR
 	stThisIsFirstEvent: ST_Event;
 	bBoolean: BOOL :=FALSE;
-	
+	bBoolean_2: BOOL :=FALSE;
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -14,10 +14,5 @@ UpdateEventWithSystemTime(stEvent:= stThisIsFirstEvent);
 bBoolean := TRUE;
 END_IF]]></ST>
     </Implementation>
-    <LineIds Name="MAIN">
-      <LineId Id="10" Count="0" />
-      <LineId Id="2" Count="0" />
-      <LineId Id="11" Count="1" />
-    </LineIds>
   </POU>
 </TcPlcObject>
